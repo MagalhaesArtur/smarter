@@ -124,6 +124,7 @@
     padding: 30px;
     border-radius: 5px;
     text-align: center;
+    width: 90%;
 }
 
 .showCaseContainer h2{
@@ -173,14 +174,193 @@
 .btnImages{
     border: solid #111 5px;
     text-align: center;
+    width: 320px;
     transition: border 1000ms ease;
     transition: background 1000ms ease;
+    padding: 20px;
 
 }
 .btnImages:hover{
     
-    border: solid rgba(191, 29, 223, 0.5) 5px;
-    background-color: #eee;
+    border: solid rgba(191, 29, 223) 5px;
+    background-color: rgb(128, 128, 128);
     transition: border 1000ms ease;
     transition: background 1000ms ease;
+}
+
+/* O que fazemos */
+.whatWeDo{
+    width: 100%;
+    background-color: #eee;
+}
+
+.title2{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.whatWeDoContainer{
+    padding: 40px;
+    display: flex;
+}
+
+.feature{
+    padding: 10px;
+    background-color: rgb(155, 153, 153);
+    border: solid 4px #111;
+    margin-right: 40px;
+    border-radius: 5px;
+    color: #111;
+}
+
+.feature span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.feature p {
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+/* product */
+#product{
+    background-color: #111;
+    padding: 50px;
+    color: #eee;
+    width: 100%;
+}
+
+.productContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title3{
+    font-size: 34px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.itemsContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    margin-left: 50px;
+}
+
+.item{
+    width: 90%;
+    padding: 20px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.item p{
+    margin-top: 10px;
+}
+
+.iphone{
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Avaliation */
+
+.avaliation{
+    width: 100%;
+    background-color: #eee;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.avaliationContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testmonial{
+    background-color: #444;
+    color: #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.testmonial p {
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.testmonialImage{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.title4{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+}
+
+/* galeria */
+
+#galeria{
+    width: 100%;
+    background-color: #111;
+    padding: 50px;
+    margin: auto;
+}
+
+.title5{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    color: #eee;
+    margin-bottom: 30px;
+}
+
+.galleryContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 30px;
+    justify-items: center;
+    width: 100%;
+}
+
+.galleryContainer img{
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+/* footer */
+.footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.footerContainer{
+    margin: auto;
+    padding: 20px;
+    color: #eee;
+    width: 90%;
+    border: 5px solid #eee;
+    border-radius: 5px;
 }

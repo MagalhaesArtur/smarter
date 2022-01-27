@@ -1,0 +1,58 @@
+.navContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+.navBar{
+    height: 100px;
+}
+.showCaseContainer{
+    width: 80%;
+}
+
+.clientsContainer{
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.btnImages{
+    border: #eee solid 3px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.whatWeDoContainer{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature{
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.productContainer{
+    flex-direction: column;
+}
+
+.iphone{
+    margin-bottom: 15px;
+    width: 250px;
+}
+
+.testmonial{
+    flex-direction: column;
+}
+
+.testmonialImage{
+    margin-bottom: 10px;
+}

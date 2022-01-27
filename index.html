@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>SMARTER</title>
+    <link rel="stylesheet" href="./mobile.css" media="screen and (max-width: 768px)">
 </head>
 <body>
     <!-- Nav Bar -->
@@ -14,8 +15,8 @@
             <h1 class="title">SMARTER</h1>
             <ul class="navBarItems">
                 <li class="navBtn"><a href="" class="btn1">Início</a></li>
-                <li class="navBtn"><a href="" class="btn2">Sobre</a></li>
-                <li class="navBtn"><a href="" class="btn3">Galeria</a></li>
+                <li class="navBtn"><a href="#whatWeDo" class="btn2">Sobre</a></li>
+                <li class="navBtn"><a href="#galeria" class="btn3">Galeria</a></li>
         </div>
         </ul>
     </nav>
@@ -26,7 +27,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
                  porro optio. Minima voluptas dolores ducimus aut nam at soluta minus!</p>
         </div>
-        <div class="case2"><a href="xvideos" class="btn">SAIBA MAIS</a></div>
+        <div class="case2"><a href="#product" class="btn">SAIBA MAIS</a></div>
         
         
     </div>
@@ -34,12 +35,99 @@
     <section class="clients">
         <h1 class="headline">NOSSOS CLIENTES</h1>
         <div class="clientsContainer">
-            <a href="" class="btnImages"><img class="client"  src="./images/netflix.png" alt=""></a>
-            <a href="" class="btnImages"><img class="client"  src="./images/microsoft.png" alt=""></a>
-            <a href="" class="btnImages"><img class="client"  src="./images/apple.png" alt=""></a>
-            <a href="" class="btnImages"><img class="client"  src="./images/google.png" alt=""></a>
+            <a href="https://www.netflix.com/br/" class="btnImages"><img class="client"  src="./images/netflix.png" alt=""></a>
+            <a href="https://www.microsoft.com/pt-br" class="btnImages"><img class="client"  src="./images/microsoft.png" alt=""></a>
+            <a href="https://www.apple.com/br/?afid=p238%7CsIMTwhtb9-dc_mtid_1870765e38482_pcrid_570728131424_pgrid_17049243298_&cid=aos-br-kwgo-brand--slid---product-" class="btnImages"><img class="client"  src="./images/apple.png" alt=""></a>
+            <a href="https://www.google.com/" class="btnImages"><img class="client"  src="./images/google.png" alt=""></a>
         </div>
     </section>
     
+
+    <div id="whatWeDo">
+        <h1 class="title2">O QUE FAZEMOS</h1>
+        <div class="whatWeDoContainer">
+            <div class="feature">
+                <i class="fas fa-tachometer-alt fa-3x"></i>
+                <span class="featureTitle">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium in dolores dolorum quasi, voluptatibus ipsum.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-code fa-3x"></i>
+                <span class="featureTitle">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium in dolores dolorum quasi, voluptatibus ipsum.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-layer-group fa-3x"></i>
+                <span class="featureTitle">Lorem ipsum dolor sit amet.</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium in dolores dolorum quasi, voluptatibus ipsum.</p>
+            </div>
+        </div>
+
+        <section id="product">
+            <h1 class="title3">NOSSO PRODUTO</h1>
+            <div class="productContainer">
+                <img src="./images//smart.png" alt="" class="iphone">
+                <div class="itemsContainer">
+                    <div class="item">
+                        <i class="fas fa-map-marked fa-2x color-primary"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam reiciendis voluptates nulla aut nisi?</p>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-users fa-2x color-primary"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam reiciendis voluptates nulla aut nisi?</p>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-glass-cheers fa-2x color-primary"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam reiciendis voluptates nulla aut nisi?</p>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-book-open fa-2x color-primary"></i>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam nam reiciendis voluptates nulla aut nisi?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="avaliation">
+            <h1 class="title4">O QUE ACHAM DE NÓS</h1>
+            <div class="avaliation Container">
+                <div class="testmonial">
+                    <img src="./images/person-1.jpeg" alt="" class="testmonialImage">
+                    <p>
+                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos delectus atque
+                         minus totam tempora deleniti consequatur autem dolore libero rem."
+                    </p>
+                </div>
+                <div class="testmonial">
+                    <img src="./images/person-2.jpeg" alt="" class="testmonialImage">
+                    <p>
+                        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum exercitationem sequi ab
+                         cum consequatur delectus autem cupiditate quibusdam quis. Consectetur."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h1 class="title5">GALERIA</h1>
+            <div class="galleryContainer">
+                <img src="./images/image-1.jpeg" alt="">
+                <img src="./images/image-2.jpeg" alt="">
+                <img src="./images/image-3.jpeg" alt="">
+                <img src="./images/image-4.jpeg" alt="">
+                <img src="./images/image-5.jpeg" alt="">
+                <img src="./images/image-6.jpeg" alt="">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footerContainer">
+                <p>Copyright 2022 - All rights reserveds.</p>
+                <p>Design by SMARTER</p>
+            </div>
+        </footer>
+    </div>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/2e133a6b24.js" crossorigin="anonymous"></script>
 </body>
 </html>
